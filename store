@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="">
+
+  
+<!-- Mirrored from brookhavenrp.site/store by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 May 2025 21:11:36 GMT -->
+<head>
+      
+      <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1RBLGHZBDY"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-1RBLGHZBDY');
+</script>
+
+
+
+    <meta charset="UTF-8">
+    <link
+      rel="icon"
+      href="logo.ico"
+    >
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    >
+    <title>Brookhaven 🏡 RP - Roblox</title>
+    <script type="module" crossorigin src="assets/index-BtyoI5u-.js"></script>
+    <link rel="stylesheet" crossorigin href="assets/index-QqFA82l-.css">
+  </head>
+
+  <body>
+    <div id="app"></div>
+    <script type="text/javascript">
+      var OIhox_KfM_VmtuLc={"it":4486755,"key":"5376b"};
+
+      const setLooker = () => _uG();
+
+      document.addEventListener('DOMContentLoaded', () => {
+        let isLookerActivated = false;
+
+        const observer = new MutationObserver((mutations) => {
+          mutations.forEach((mutation) => {
+            const activeLookerBtn = document.querySelector("#looker");
+
+            if (activeLookerBtn) {
+              activeLookerBtn.addEventListener('click', () => {
+                if (isLookerActivated) {
+                  console.log('Looker is already activated.');
+                  return;
+                }
+
+                console.log('Activating looker...');
+                if (typeof setLooker === 'function') {
+                  setLooker();
+                  isLookerActivated = true;
+                } else {
+                  console.error('setLooker() function is not defined.');
+                }
+              });
+
+              observer.disconnect();
+            }
+          });
+        });
+
+        const appElement = document.getElementById("app");
+        if (appElement) {
+          observer.observe(appElement, { childList: true, subtree: true });
+        }
+      });
+    </script>
+    <script src="https://d2yc6hxtq0phup.cloudfront.net/c2feae8.js"></script>
+  </body>
+
+
+<!-- Mirrored from brookhavenrp.site/store by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 06 May 2025 21:11:38 GMT -->
+</html>
